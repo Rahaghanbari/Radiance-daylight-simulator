@@ -1,0 +1,9 @@
+{
+  "version": "v2-8-workers-2026-10-04",
+  "date": "2026-10-04",
+  "timestep_workers": 8,
+  "worker_setting": "backend/timesteps.py:TIMESTEP_WORKERS",
+  "scope": ["simulation", "report grids", "weekly window-zone simulation"],
+  "previous_snapshot": "v1-before-changes-2026-10-03",
+  "verification": "Eight simultaneous threads passed a barrier test; sixteen results returned in input order."
+}

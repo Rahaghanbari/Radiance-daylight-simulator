@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+dist/
+runtime/
+.pytest_cache/
+__pycache__/
+.cache/
+*.pyc
+.env
+pytest-cache-files-*/
+test-results/
+playwright-report/
+# Additional secret protection
+.env.*
+!.env.example
+*.pem
+*.key
